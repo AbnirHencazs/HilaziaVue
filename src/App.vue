@@ -16,7 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
       </nav>
     </div>
   </header>
-
+  <div class="text-red-500">Tailwind works!!</div>
   <RouterView />
 </template>
 
