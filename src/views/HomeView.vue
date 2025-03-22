@@ -6,9 +6,7 @@ import HilaziaIcon from '@/components/icons/HilaziaIcon.vue'
   <v-container class="fill-height flex-column">
     <v-row justify="center">
       <v-col>
-        <v-sheet>
-          <h1>Muy pronto</h1>
-        </v-sheet>
+        <v-sheet class="text-h1"> Muy Pronto... </v-sheet>
       </v-col>
     </v-row>
     <v-row justify="center">
