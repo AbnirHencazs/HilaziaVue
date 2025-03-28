@@ -1,8 +1,10 @@
 /* Typography */
-html, body, .v-theme--hilazia {
+html,
+body,
+.v-theme--hilazia {
   font-family: 'Funnel Display', sans-serif;
 }
 
 html body .text-h1 {
-  font-family: 'Lovers Quarrel', cursive!important;
+  font-family: 'Lovers Quarrel', cursive !important;
 }

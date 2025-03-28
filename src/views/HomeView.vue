@@ -1,35 +1,50 @@
-<script setup lang="ts">
-import HilaziaIcon from '@/components/icons/HilaziaIcon.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <v-container class="fill-height flex-column">
-    <v-row justify="center">
-      <v-col>
-        <h1 class="text-h1">Muy Pronto...</h1>
-      </v-col>
-    </v-row>
-    <v-row justify="center">
-      <v-col>
-        <v-sheet>
-          <hilazia-icon></hilazia-icon>
-        </v-sheet>
-      </v-col>
+  <v-parallax class="rounded-b-16" src="http://hilazia.online/images/HilaziaHero.webp">
+    <v-container class="fill-height flex-column align-start">
+      <v-row class="align-end"><h1 class="text-h1">Lorem Ipsum Dolor</h1></v-row>
+      <v-row><v-btn color="primary">Shop</v-btn></v-row>
+    </v-container>
+  </v-parallax>
+  <v-container>
+    <v-row>
+      <h1 class="text-h1">Explorar Por Categoria</h1>
     </v-row>
   </v-container>
   <v-container>
-    <v-row>
+    <v-row class="h-25">
       <v-col>
-        <h1 class="text-h1">
-          Explorar por categoria
-        </h1>
+        <v-sheet class="px-2 py-8" rounded color="primary">Macrame</v-sheet>
+      </v-col>
+      <v-col>
+        <v-sheet class="px-2 py-8" rounded color="primary">Kombuchas</v-sheet>
+      </v-col>
+    </v-row>
+    <v-row class="h-25">
+      <v-col>
+        <v-sheet class="px-2 py-8" rounded color="primary">Corsets</v-sheet>
+      </v-col>
+      <v-col>
+        <v-sheet class="px-2 py-8" rounded color="primary">Vestidos</v-sheet>
+      </v-col>
+    </v-row>
+    <v-row class="h-25">
+      <v-col>
+        <v-sheet class="px-2 py-8" rounded color="primary">Plantas</v-sheet>
+      </v-col>
+      <v-col>
+        <v-sheet class="px-2 py-8" rounded color="primary">Pantalones</v-sheet>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
-<style>
-  .text-h1 {
-    color: rgb(var(--v-theme-primary-darken-1));
-  }
+<style scoped>
+.text-h1 {
+  color: rgb(var(--v-theme-primary-darken-1));
+}
+.v-parallax {
+  border-radius: 0px 0px 62px 62px;
+}
 </style>

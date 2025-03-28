@@ -1,4 +1,5 @@
 import { createVuetify, type ThemeDefinition } from 'vuetify'
+import { aliases, mdi } from 'vuetify/iconsets/mdi'
 
 const hilazia: ThemeDefinition = {
   colors: {
@@ -9,15 +10,21 @@ const hilazia: ThemeDefinition = {
     info: '#E0EFF6',
     success: '#CAF3E5',
     warning: '#EEEBFF',
-  }
+  },
 }
 
-
 export default createVuetify({
+  icons: {
+    defaultSet: 'mdi',
+    aliases,
+    sets: {
+      mdi,
+    },
+  },
   theme: {
     defaultTheme: 'hilazia',
     themes: {
-      hilazia
-    }
-  }
+      hilazia,
+    },
+  },
 })
