@@ -7,7 +7,15 @@ import vuetify from 'vite-plugin-vuetify'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueDevTools(), vuetify()],
+  plugins: [
+    vue(),
+    vueDevTools(),
+    vuetify({
+      styles: {
+        configFile: 'src/assets/settings.scss',
+      },
+    }),
+  ],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),

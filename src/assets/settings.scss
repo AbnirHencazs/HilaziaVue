@@ -1,0 +1,7 @@
+$custom-body-font-family: 'Funnel Display', cursive;
+$custom-heading-font-family: 'Lovers Quarrel', cursive;
+
+@use 'vuetify/settings' with (
+  $body-font-family: $custom-body-font-family,
+  $heading-font-family: $custom-heading-font-family
+);
