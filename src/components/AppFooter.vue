@@ -6,11 +6,9 @@ interface SocialIcon {
 }
 
 const socialIcons: SocialIcon[] = [
-  { name: 'facebook', icon: 'mdi-facebook', color: 'primary' },
   { name: 'twitter', icon: 'mdi-twitter', color: 'primary' },
-  { name: 'linkedin', icon: 'mdi-linkedin', color: 'primary' },
   { name: 'instagram', icon: 'mdi-instagram', color: 'primary' },
-  { name: 'whatsapp', icon: 'mdi-whatsapp', color: 'green' },
+  { name: 'whatsapp', icon: 'mdi-whatsapp', color: 'primary' },
 ]
 
 // Obtener el número de WhatsApp desde las variables de entorno
@@ -22,7 +20,7 @@ const handleSocialClick = (socialName: string) => {
       window.open('https://facebook.com/yourpage', '_blank')
       break
     case 'twitter':
-      window.open('https://twitter.com/yourhandle', '_blank')
+      window.open('https://twitter.com/BrianSanchezIzq', '_blank')
       break
     case 'linkedin':
       window.open('https://linkedin.com/company/yourcompany', '_blank')
