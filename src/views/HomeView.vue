@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-parallax class="rounded-b-16" src="http://hilazia.online/images/HilaziaHero.webp">
+  <v-parallax class="rounded-b-16" src="https://hilazia.online/images/HilaziaHero.webp">
     <v-container class="fill-height flex-column align-start">
       <v-row class="align-end">
         <h1 class="text-h1 gradient-text">Arte que se siente, que se viste y que se prueba</h1>
@@ -17,8 +17,9 @@
     <v-row class="h-25">
       <v-col>
         <v-card
-          class="px-2 py-8 text-center card-uniform"
+          class="px-2 py-8 text-center card-zoom-effect card-uniform"
           rounded
+          image="https://hilazia.online/images/MacrameCard.jpg"
           title="Macrame"
           color="primary"
         ></v-card>
@@ -27,7 +28,7 @@
         <v-card
           class="px-2 py-8 text-center card-zoom-effect card-uniform"
           rounded
-          image="http://hilazia.online/images/KombuchaCard.png"
+          image="https://hilazia.online/images/KombuchaCard.png"
           title="Kombuchas"
           color="primary"
         >
@@ -37,16 +38,18 @@
     <v-row class="h-25">
       <v-col>
         <v-card
-          class="px-2 py-8 text-center card-uniform"
+          class="px-2 py-8 text-center card-zoom-effect card-uniform"
           rounded
+          image="https://hilazia.online/images/CorsetCard.jpg"
           title="Corsets"
           color="primary"
         ></v-card>
       </v-col>
       <v-col>
         <v-card
-          class="px-2 py-8 text-center card-uniform"
+          class="px-2 py-8 text-center card-zoom-effect card-uniform"
           rounded
+          image="https://hilazia.online/images/DressCard.jpg"
           title="Vestidos"
           color="primary"
         ></v-card>
@@ -55,8 +58,9 @@
     <v-row class="h-25">
       <v-col>
         <v-card
-          class="px-2 py-8 text-center card-uniform"
+          class="px-2 py-8 text-center card-zoom-effect card-uniform"
           rounded
+          image="https://hilazia.online/images/PlantCard.jpg"
           title="Plantas"
           color="primary"
         ></v-card>
