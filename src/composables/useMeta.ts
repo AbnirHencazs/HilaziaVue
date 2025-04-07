@@ -17,8 +17,8 @@ export function useMeta(options: MetaOptions) {
     image = 'https://hilazia.online/images/HilaziaHero.webp',
     url = 'https://hilazia.online',
     keywords = 'hilazia, ropa, moda, arte, diseño, tienda online',
-    author = 'Hilazia',
-    themeColor = '#ffffff',
+    author = 'Brian Sanchez',
+    themeColor = '#70908B',
   } = options
 
   useHead({
