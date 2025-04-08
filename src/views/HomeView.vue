@@ -1,14 +1,4 @@
-<script setup lang="ts">
-import { useMeta } from '@/composables/useMeta'
-
-useMeta({
-  title: 'Hilazia - Arte que se siente, que se viste y que se prueba',
-  description:
-    'Descubre nuestra colección única de arte que se siente, que se viste y que se prueba en Puebla, México. Macramé, kombuchas, corsets, vestidos y más.',
-  image: 'https://hilazia.online/images/HilaziaHero.webp',
-  url: 'https://hilazia.online',
-})
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <v-parallax class="rounded-b-16" src="https://hilazia.online/images/HilaziaHero.webp">

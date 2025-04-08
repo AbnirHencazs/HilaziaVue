@@ -17,35 +17,4 @@ app.use(router)
 app.use(vuetify)
 app.use(head)
 
-// Add default meta tags
-head.push({
-  title: 'Hilazia - Online Store',
-  meta: [
-    {
-      name: 'description',
-      content: 'Tienda de kombucha, macramé, plantas y moda en Puebla, México',
-    },
-    // Open Graph / Facebook
-    {
-      name: 'og:type',
-      content: 'website',
-    },
-    {
-      name: 'og:url',
-      content: 'https://hilazia.online',
-    },
-    {
-      name: 'og:title',
-      content: 'Hilazia',
-    },
-    {
-      name: 'og:description',
-      content: 'Tienda de kombucha, macramé, plantas y moda en Puebla, México',
-    },
-    {
-      name: 'og:image',
-      content: 'https://hilazia.online/images/HilaziaHero.webp',
-    },
-  ],
-})
 app.mount('#app')
