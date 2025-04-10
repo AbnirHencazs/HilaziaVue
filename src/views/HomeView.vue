@@ -16,13 +16,13 @@
   <v-container>
     <v-carousel
       cycle
-      height="400"
+      height="300"
       hide-delimiter-background
       show-arrows="hover"
       delimiter-icon="mdi-circle"
     >
       <v-carousel-item>
-        <v-row class="fill-height">
+        <v-row class="fill-height align-center">
           <v-col cols="6">
             <v-card
               class="px-2 py-8 text-center card-zoom-effect card-uniform"
@@ -45,7 +45,7 @@
       </v-carousel-item>
 
       <v-carousel-item>
-        <v-row class="fill-height">
+        <v-row class="fill-height align-center">
           <v-col cols="6">
             <v-card
               class="px-2 py-8 text-center card-zoom-effect card-uniform"
@@ -68,7 +68,7 @@
       </v-carousel-item>
 
       <v-carousel-item>
-        <v-row class="fill-height">
+        <v-row class="fill-height align-center">
           <v-col cols="6">
             <v-card
               class="px-2 py-8 text-center card-zoom-effect card-uniform"
