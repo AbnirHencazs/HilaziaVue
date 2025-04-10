@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <v-parallax class="rounded-b-16" src="https://hilazia.online/images/HilaziaHero.webp">
+  <v-parallax class="rounded-b-16 mb-8" src="https://hilazia.online/images/HilaziaHero.webp">
     <v-container class="fill-height flex-column align-start">
       <v-row class="align-end">
         <h1 class="text-h1 gradient-text">Arte que se siente, que se viste y que se prueba</h1>
@@ -10,70 +10,85 @@
   </v-parallax>
   <v-container>
     <v-row>
-      <h1 class="text-h1">Explorar Por Categoria</h1>
+      <h2 class="text-h2 text-primary">Explorar Por Categoria</h2>
     </v-row>
   </v-container>
   <v-container>
-    <v-row class="h-25">
-      <v-col>
-        <v-card
-          class="px-2 py-8 text-center card-zoom-effect card-uniform"
-          rounded
-          image="https://hilazia.online/images/MacrameCard.jpg"
-          title="Macrame"
-          color="primary"
-        ></v-card>
-      </v-col>
-      <v-col>
-        <v-card
-          class="px-2 py-8 text-center card-zoom-effect card-uniform"
-          rounded
-          image="https://hilazia.online/images/KombuchaCard.png"
-          title="Kombuchas"
-          color="primary"
-        >
-        </v-card>
-      </v-col>
-    </v-row>
-    <v-row class="h-25">
-      <v-col>
-        <v-card
-          class="px-2 py-8 text-center card-zoom-effect card-uniform"
-          rounded
-          image="https://hilazia.online/images/CorsetCard.jpg"
-          title="Corsets"
-          color="primary"
-        ></v-card>
-      </v-col>
-      <v-col>
-        <v-card
-          class="px-2 py-8 text-center card-zoom-effect card-uniform"
-          rounded
-          image="https://hilazia.online/images/DressCard.jpg"
-          title="Vestidos"
-          color="primary"
-        ></v-card>
-      </v-col>
-    </v-row>
-    <v-row class="h-25">
-      <v-col>
-        <v-card
-          class="px-2 py-8 text-center card-zoom-effect card-uniform"
-          rounded
-          image="https://hilazia.online/images/PlantCard.jpg"
-          title="Plantas"
-          color="primary"
-        ></v-card>
-      </v-col>
-      <v-col>
-        <v-card
-          class="px-2 py-8 text-center card-uniform"
-          rounded
-          title="Pantalones"
-          color="primary"
-        ></v-card>
-      </v-col>
-    </v-row>
+    <v-carousel
+      cycle
+      height="400"
+      hide-delimiter-background
+      show-arrows="hover"
+      delimiter-icon="mdi-circle"
+    >
+      <v-carousel-item>
+        <v-row class="fill-height">
+          <v-col cols="6">
+            <v-card
+              class="px-2 py-8 text-center card-zoom-effect card-uniform"
+              rounded
+              image="https://hilazia.online/images/MacrameCard.jpg"
+              title="Macrame"
+              color="primary"
+            ></v-card>
+          </v-col>
+          <v-col cols="6">
+            <v-card
+              class="px-2 py-8 text-center card-zoom-effect card-uniform"
+              rounded
+              image="https://hilazia.online/images/KombuchaCard.png"
+              title="Kombuchas"
+              color="primary"
+            ></v-card>
+          </v-col>
+        </v-row>
+      </v-carousel-item>
+
+      <v-carousel-item>
+        <v-row class="fill-height">
+          <v-col cols="6">
+            <v-card
+              class="px-2 py-8 text-center card-zoom-effect card-uniform"
+              rounded
+              image="https://hilazia.online/images/CorsetCard.jpg"
+              title="Corsets"
+              color="primary"
+            ></v-card>
+          </v-col>
+          <v-col cols="6">
+            <v-card
+              class="px-2 py-8 text-center card-zoom-effect card-uniform"
+              rounded
+              image="https://hilazia.online/images/DressCard.jpg"
+              title="Vestidos"
+              color="primary"
+            ></v-card>
+          </v-col>
+        </v-row>
+      </v-carousel-item>
+
+      <v-carousel-item>
+        <v-row class="fill-height">
+          <v-col cols="6">
+            <v-card
+              class="px-2 py-8 text-center card-zoom-effect card-uniform"
+              rounded
+              image="https://hilazia.online/images/PlantCard.jpg"
+              title="Plantas"
+              color="primary"
+            ></v-card>
+          </v-col>
+          <v-col cols="6">
+            <v-card
+              class="px-2 py-8 text-center card-uniform"
+              rounded
+              title="Pantalones"
+              color="primary"
+            ></v-card>
+          </v-col>
+        </v-row>
+      </v-carousel-item>
+    </v-carousel>
   </v-container>
 </template>
 
